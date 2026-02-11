@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/hyardim/Desktop/Personal_Website/app/layout.tsx"],"sourcesContent":["import \"./globals.css\";\nimport type { ReactNode } from \"react\";\n\nexport const metadata = {\n  title: \"Hakan Yardim – Software Developer\",\n  description: \"Personal developer portfolio of Hakan Yardim.\",\n};\n\nexport default function RootLayout({ children }: { children: ReactNode }) {\n  return (\n    <html lang=\"en\">\n      <body className=\"min-h-screen bg-slate-950 text-slate-100 antialiased\">\n        {children}\n      </body>\n    </html>\n  );\n}\n\n"],"names":[],"mappings":";;;;;;;;;AAGO,MAAM,WAAW;IACtB,OAAO;IACP,aAAa;AACf;AAEe,SAAS,WAAW,EAAE,QAAQ,EAA2B;IACtE,qBACE,8OAAC;QAAK,MAAK;kBACT,cAAA,8OAAC;YAAK,WAAU;sBACb;;;;;;;;;;;AAIT"}},
-    {"offset": {"line": 38, "column": 0}, "map": {"version":3,"sources":["file:///Users/hyardim/Desktop/Personal_Website/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-rsc']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}}]
-}
