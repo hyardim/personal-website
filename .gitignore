@@ -21,7 +21,11 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.dev.vars
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# wrangler
+.wrangler/
